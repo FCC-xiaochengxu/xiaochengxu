@@ -1,0 +1,47 @@
+{
+  "pages":[
+    //小程序初始界面
+    "pages/index/index",
+    //维修预约初始界面
+    "pages/repair_computer/index",
+    //笔记本选购初始界面
+    "pages/buy_computer/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor":"#fff",
+    "navigationBarTitleText":"WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  //切换页面的tab栏
+  /*小程序是否要选择tab栏的形式，
+  若是选择，哪个在前
+  "tabBar": {
+      "color": "#dddddd",
+      "selectedColor": "3cc51f",
+      "borderStyle": "black",
+      "backgroundColor": "#ffffff",
+      "list": [{
+        //跳转到维修预约的初始界面的路径
+        "pagePath":"pages/repair_computer/index",
+        //未点击的维修预约的图标的路径 暂无图标
+        "iconpath":"image/icon_repair.png",
+        //点击之后的维修预约的图标的路径 暂无图标
+        "selectedIconPath":"image/icon_selected_repair.png",
+        "text":"维修预约"
+      },{
+        //笔记本选购的初始界面的路径 
+        "pagePath":"pages/buy_computer/index",
+        //暂无图标
+        "iconPath":"image/icon_buy.png",
+        //暂无图标
+        "selectedIconPath":"image/icon_select_buy.png",
+        "text":"笔记本选购"
+      }
+      ]
+  }*/
+  "networkTimeout":{
+    "request":10000
+  },
+  "debug":true
+}
