@@ -1,3 +1,5 @@
+const app = getApp()
+//var template = require('../template_tabbar/template.js');//('../../tabbar-template/template.js');
 Page({
 
   /**
@@ -10,8 +12,8 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
-    
+  onLoad: function () {
+    app.globalData.template.tabbar("tabBar", 0, this)//0表示第一个tabbar
   },
 
   /**

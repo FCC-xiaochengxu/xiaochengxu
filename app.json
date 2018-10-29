@@ -2,31 +2,14 @@
   "pages":[
     "pages/index/index",
     "pages/repair_computer/index",
-    "pages/buy_computer/index"
-  ],
+    "pages/buy_computer/index",
+    "pages/contact_us/index"
+    ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor":"#fff",
     "navigationBarTitleText":"WeChat",
     "navigationBarTextStyle":"black"
-  },
-  "tabBar": {
-      "color": "#dddddd",
-      "selectedColor": "3cc51f",
-      "borderStyle": "black",
-      "backgroundColor": "#ffffff",
-      "list": [{
-        "pagePath":"pages/repair_computer/index",
-        "iconpath":"image/icon_repair.png",
-        "selectedIconPath":"image/icon_selected_repair.png",
-        "text":"维修预约"
-      },{
-        "pagePath":"pages/buy_computer/index",
-        "iconPath":"image/icon_buy.png",
-        "selectedIconPath":"image/icon_select_buy.png",
-        "text":"笔记本选购"
-      }
-      ]
   },
   "networkTimeout":{
     "request":10000

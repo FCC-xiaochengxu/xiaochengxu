@@ -1,5 +1,5 @@
-// pages/repair_computer/index.js
-const app = getApp()
+// pages/contact_us/index.js
+const app=getApp()
 var template = require('../template_tabbar/template.js');
 Page({
 
@@ -14,7 +14,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function () {
-    template.tabbar("tabBar", 1, this)
+    template.tabbar("tabBar", 3, this)
   },
 
   /**

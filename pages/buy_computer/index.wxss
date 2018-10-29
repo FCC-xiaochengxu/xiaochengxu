@@ -1,1 +1,2 @@
 /* pages/buy_computer/index.wxss */
+@import "../index/index.wxss";

@@ -1,4 +1,4 @@
-<!--pages/buy_computer/index.wxml-->
-<text>pages/buy_computer/index.wxml</text>
+<!--pages/contact_us/index.wxml-->
+<text>pages/contact_us/index.wxml</text>
 <import src="../template_tabbar/template.wxml"/>
 <template is="tabBar" data="{{tabBar:bindData.tabBar}}"/>
