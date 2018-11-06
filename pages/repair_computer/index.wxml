@@ -1,4 +1,14 @@
 <!--pages/repair_computer/index.wxml-->
-<text>pages/repair_computer/index.wxml</text>
 <import src="../template_tabbar/template.wxml"/>
 <template is="tabBar" data="{{tabBar:bindData.tabBar}}"/>
+<web-view src="https://www.jsform.com/web/formview/5804ea390cf2c4c32ccbd179"></web-view>
+<!--<view>
+  <form>
+  <view >姓名</view>
+  <input name="F1" type='text' maxlength='5' class=''></input>
+  <view>电话</view>
+  <input name="F2" type='number' maxlength='11' class=''></input>
+  <view>预约时间</view>
+  <>
+  </form>
+</view>-->
