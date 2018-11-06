@@ -1,0 +1,38 @@
+/* pages/welcome/index.wxss */
+.container{ 
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 720px;
+  background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541521407852&di=7d4184110f9a3e0a4617772740ad3b3e&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F12%2F24%2F06%2F13I58PICfJH.jpg");
+   background-size:100% 100%; 
+  background-repeat:no-repeat;
+ }
+.icon{
+  position: absolute;
+  top:150px;
+  left: 150px;
+  width: 100px;
+  height: 100px;
+}
+.btn_v{
+  width: 100%;
+  margin-top: 300px;
+  height: 50px;
+}
+.btn1 {
+  width: 80%; 
+  margin-top: 20px;
+  background-color:aquamarine;
+  color:black;
+  border-radius: 98rpx;
+  display: fleco;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  }  
+.btn1::after { 
+  border-radius: 98rpx;
+  border: 0; 
+}

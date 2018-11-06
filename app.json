@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/welcome/index",
     "pages/index/index",
     "pages/repair_computer/index",
     "pages/buy_computer/index",

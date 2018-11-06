@@ -1,8 +1,14 @@
 <!--pages/repair_computer/index.wxml-->
 <import src="../template_tabbar/template.wxml"/>
 <template is="tabBar" data="{{tabBar:bindData.tabBar}}"/>
+<!--直接打开一个外部连接
+会覆盖其他组件-->
 <web-view src="https://www.jsform.com/web/formview/5804ea390cf2c4c32ccbd179"></web-view>
-<!--<view>
+<!--
+自己写代码提交
+优势：对输入进行验证防止不正确的输入后台得到无用信息
+缺点：需要自己开发样式
+<view>
   <form>
   <view >姓名</view>
   <input name="F1" type='text' maxlength='5' class=''></input>

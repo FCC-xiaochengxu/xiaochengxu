@@ -2,3 +2,6 @@
 <text>pages/buy_computer/index.wxml</text>
 <import src="../template_tabbar/template.wxml"/>
 <template is="tabBar" data="{{tabBar:bindData.tabBar}}"/>
+<view>
+
+</view>

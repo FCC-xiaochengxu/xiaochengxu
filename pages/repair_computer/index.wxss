@@ -1,2 +1,2 @@
 /* pages/repair_computer/index.wxss */
-@import "../index/index.wxss";
+@import "../template_tabbar/template.wxss";
