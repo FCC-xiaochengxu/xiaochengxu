@@ -1,19 +1,21 @@
 {
-  "pages":[
+  "pages": [
     "pages/welcome/index",
     "pages/index/index",
     "pages/repair_computer/index",
     "pages/buy_computer/index",
-    "pages/contact_us/index"
-    ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor":"#fff",
-    "navigationBarTitleText":"WeChat",
-    "navigationBarTextStyle":"black"
+    "pages/contact_us/index",
+    "pages/button/button"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
   },
-  "networkTimeout":{
-    "request":10000
+  "networkTimeout": {
+    "request": 10000
   },
-  "debug":true
+  "debug": true
 }

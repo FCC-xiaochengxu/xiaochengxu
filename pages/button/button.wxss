@@ -1,4 +1,4 @@
-/* pages/buy_computer/index.wxss */
+/* pages/button/button.wxss */
 .xuanxiang{
   text-align: center;
   font-size: 50rpx;
