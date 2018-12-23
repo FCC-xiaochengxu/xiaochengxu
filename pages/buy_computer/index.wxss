@@ -27,3 +27,9 @@
   background-color:rgb(230, 48, 48);
   
 }
+
+.button-hover{
+  background-color: #86867d;
+  
+  opacity:0.7;
+}

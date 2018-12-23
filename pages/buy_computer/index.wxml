@@ -7,7 +7,7 @@
 
 <view>*性能需求:</view>
 <view class="btnGroup">
-<button  class="item">商务办公</button>
+<button  class="item" hover-class="button-hover">商务办公</button>
 <button  class="item">设计相关</button>
 <button  class="item">高清游戏</button>
 </view>
