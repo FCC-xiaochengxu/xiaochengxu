@@ -12,7 +12,7 @@ Page({
   },
   buy_computer: function () {
     wx.navigateTo({
-      url: '../buy_computer/index',
+      url: '../buy_computer/index/index',
     })
   },
   contact_us: function () {

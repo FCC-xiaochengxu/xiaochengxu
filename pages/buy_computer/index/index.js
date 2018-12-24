@@ -1,6 +1,6 @@
 // pages/buy_computer/index.js
-const app=getApp()
-var template = require('../template_tabbar/template.js');
+const app = getApp()
+var template = require('../../template_tabbar/template.js');
 Page({
 
   /**
@@ -9,12 +9,16 @@ Page({
   data: {
 
   },
-
+  select: function(){
+    wx.navigateTo({
+      url: '../select/select',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function () {
-    template.tabbar("tabBar", 2, this)
+  onLoad: function (options) {
+
   },
 
   /**

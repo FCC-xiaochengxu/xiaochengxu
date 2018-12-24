@@ -4,8 +4,8 @@
     "pages/welcome/index",
     "pages/index/index",
     "pages/repair_computer/index",
-    "pages/buy_computer1/index",
-    "pages/buy_computer/index",
+    "pages/buy_computer/index/index",
+    "pages/buy_computer/select/select",
     "pages/contact_us/index",
     "pages/button/button"
     
