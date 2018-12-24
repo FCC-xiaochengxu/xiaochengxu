@@ -4,7 +4,7 @@
    <view class='btn_v'>
       <button class='btn1' bindtap='index'>首页</button>
       <button class='btn1' bindtap='repair_computer'> 技术支持</button>
-      <button class='btn1' bindtap='buy_computer'> 笔记本选购服务</button>
+      <button class='btn1' bindtap='buy_computer1'> 笔记本选购服务</button>
       <button class='btn1' bindtap='contact_us'> 联系我们</button>
   </view>
 </view>

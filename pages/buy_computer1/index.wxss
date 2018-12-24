@@ -1,0 +1,15 @@
+/* pages/buy_computer1/index.wxss */
+.xuanxiang{
+  text-align: center;
+  font-size: 50rpx;
+}
+
+ .picker {
+
+  float: left;
+
+  text-align: left;
+
+  width: 35%;
+
+}
