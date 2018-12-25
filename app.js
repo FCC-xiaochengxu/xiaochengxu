@@ -33,6 +33,7 @@ App({
     template: template,
     price: null,
     tpye: null,
-    use: null
+    use: null,
+    item:"item"
   }
 })

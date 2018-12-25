@@ -14,7 +14,12 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+      console.log(options)
+      this.setData({
+        use: getApp().globalData.use,
+        price: getApp().globalData.price,
+        type: getApp().globalData.price
+      })
   },
 
   /**

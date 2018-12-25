@@ -7,25 +7,27 @@
 
 <view>*性能需求:
 <view class="btnGroup">
-<button  class="item" hover-class="button-hover" bindtap='usage' data-use='work'>日常办公</button>
-<button  class="item" bindtap='usage' data-use='sm_game'>大型网游</button>
-<button  class="item" bindtap='usage' data-use='big_game'>大型单机</button>
+<button  class='{{unum==1?"item1":"item"}}' bindtap='usage'hover-class="button-hover" data-use='work' data-unum='1'>日常办公</button>
+<button  class='{{unum==2?"item1":"item"}}' bindtap='usage' data-use='sm_game' data-unum='2'>大型网游</button>
+<button  class='{{unum==3?"item1":"item"}}' bindtap='usage' data-use='big_game' data-unum='3'>大型单机</button>
 </view>
-<button  class="item" bindtap='usage' data-use='bx_game'>大型3D</button>
+<button  class='{{unum==4?"item1":"item"}}' bindtap='usage' data-use='bx_game' data-unum='4'>大型3D</button>
 </view>
 <view>*预算（价格可能有波动，实际价格以京东为准，近期价格可使用慢慢买APP查询）:</view>
 <view class="btnGroup">
-<button  class="item" bindtap='c_price' data-price='4000'>3700-4000</button>
-<button  class="item" bindtap='c_price' data-price='5000'>4000-5000</button>
-<button  class="item" bindtap='c_price' data-price='6000'>5000-6000</button>
+<button  class='{{pnum==1?"item1":"item"}}' bindtap='c_price' data-price='4000' data-pnum='1'>3700-4000</button>
+<button  class='{{pnum==2?"item1":"item"}}' bindtap='c_price' data-price='5000' data-pnum='2'>4000-5000</button>
+<button  class='{{pnum==3?"item1":"item"}}' bindtap='c_price' data-price='6000' data-pnum='3'>5000-6000</button>
 </view>
-<button  class="item" bindtap='c_price' data-price='7000'>6000-7000</button>
-<button  class="item" bindtap='c_price' data-price='8000'>7000-8000</button>
+<view class="btnGroup">
+<button  class='{{pnum==4?"item1":"item"}}' bindtap='c_price' data-price='7000' data-pnum='4'>6000-7000</button>
+<button  class='{{pnum==5?"item1":"item"}}' bindtap='c_price' data-price='8000' data-pnum='5'>7000-8000</button>
+</view>
 <view>*尺寸:</view>
 <view class="btnGroup">
-<button  class="item"  bindtap='c_type' data-type='13.3'>13.3</button>
-<button  class="item" bindtap='c_type' data-type='15.6'>15.6</button>
-<button  class="item" bindtap='c_type' data-type='17'>17</button>
+<button  class='{{tnum==1?"item1":"item"}}'  bindtap='c_type' data-type='13.3' data-tnum='1'>13.3</button>
+<button  class='{{tnum==2?"item1":"item"}}' bindtap='c_type' data-type='14' data-tnum='2'>14</button>
+<button  class='{{tnum==3?"item1":"item"}}' bindtap='c_type' data-type='15.6' data-tnum='3'>15.6</button>
 </view>
 <view class="btnGroup ">
 <button  class="tijiao" bindtap='submit'>马上提交</button>

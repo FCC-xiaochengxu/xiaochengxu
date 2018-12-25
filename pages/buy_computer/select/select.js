@@ -5,27 +5,34 @@ Page({
    * 页面的初始数据
    */
   data: {
+    unum:null,
+    pnum:null,
+    tnum:null
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
+  onLoad: function () {
+    
   },
   usage: function(e){
     console.log(e)
     var app=getApp()
     app.globalData.use=e.currentTarget.dataset.use
+    this.setData({unum:e.target.dataset.unum})
   },
   c_price: function(e){
     console.log(e)
     var app=getApp()
     app.globalData.price = e.currentTarget.dataset.price
+    this.setData({ pnum: e.target.dataset.pnum })
   },
   c_type: function(e){
     console.log(e)
     var app=getApp()
     app.globalData.type = e.currentTarget.dataset.type
+    this.setData({ tnum: e.target.dataset.tnum})
   },
   submit: function(){
     var app=getApp()
@@ -57,6 +64,8 @@ Page({
       }
     }
   },
+
+  
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
@@ -67,7 +76,6 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
   },
 
   /**
@@ -103,5 +111,7 @@ Page({
    */
   onShareAppMessage: function () {
 
-  }
+  },
+  
+ 
 })
