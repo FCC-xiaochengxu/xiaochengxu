@@ -2,12 +2,12 @@
 const app=getApp()
 var template = require('../template_tabbar/template.js');
 Page({
-
+   
   /**
    * 页面的初始数据
    */
   data: {
-
+     
   },
 
   /**

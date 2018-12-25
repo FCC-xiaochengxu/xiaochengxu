@@ -1,2 +1,11 @@
 /* pages/contact_us/index.wxss */
-@import "../template_tabbar/template.wxss";
+
+.qqbc{
+  
+}
+
+.text{
+  
+  align-items: center;
+  text-align: center;
+}

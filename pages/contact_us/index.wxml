@@ -1,4 +1,18 @@
 <!--pages/contact_us/index.wxml-->
-<text>pages/contact_us/index.wxml</text>
+
 <import src="../template_tabbar/template.wxml"/>
-<template is="tabBar" data="{{tabBar:bindData.tabBar}}"/>
+
+
+<view class="text">
+ <image  class='qqbc' src='../../image/QQbinarycode.jpg'
+    mode="aspectFit"></image>
+</view>
+
+<view class="text">
+  <text class="text">
+   我们每天16:00--18:30
+   </text>
+   <text class="text">
+   在梅一B1041会议室等你来哦
+   </text>
+ </view>
