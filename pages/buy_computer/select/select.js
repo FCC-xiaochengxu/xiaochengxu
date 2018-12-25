@@ -8,7 +8,8 @@ Page({
   data: {
       price:null,
       tpye:null,
-      use:null
+      use:null,
+      color: false
   },
 
   /**
@@ -66,6 +67,8 @@ Page({
       }
     }
   },
+
+  
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
@@ -113,5 +116,7 @@ Page({
    */
   onShareAppMessage: function () {
 
-  }
+  },
+  
+ 
 })

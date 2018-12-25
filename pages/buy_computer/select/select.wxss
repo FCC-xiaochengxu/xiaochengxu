@@ -18,6 +18,16 @@
   background-color: #e2e2d3;
 }
 
+.item1{
+  width:33%;
+  margin-left:5rpx; 
+  margin-right:5rpx; 
+  text-align: center;
+  line-height: 120rpx;
+  margin-bottom: 20rpx;
+  background-color: #f04d4d;
+}
+
 .tijiao{
   width:95%;
   margin-left:auto; 

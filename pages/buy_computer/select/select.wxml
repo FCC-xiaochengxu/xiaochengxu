@@ -7,8 +7,8 @@
 
 <view>*性能需求:
 <view class="btnGroup">
-<button  class="item" hover-class="button-hover" bindtap='usage' data-use='work'>日常办公</button>
-<button  class="item" bindtap='usage' data-use='sm_game'>大型网游</button>
+<button  class="item" bindtap='usage'hover-class="button-hover" bindtap='usage changecolor' data-use='work'>日常办公</button>
+<button  class="item" bindtap='usage' data-use='sm_game' >大型网游</button>
 <button  class="item" bindtap='usage' data-use='big_game'>大型单机</button>
 </view>
 <button  class="item" bindtap='usage' data-use='bx_game'>大型3D</button>
