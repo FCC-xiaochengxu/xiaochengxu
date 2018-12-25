@@ -1,4 +1,4 @@
 <!--pages/index/index.wxml-->
 <import src="../template_tabbar/template.wxml"/>
 <template is="tabBar" data="{{tabBar:bindData.tabBar}}"/>
-<web-view src="https://cumtfcc.github.io/"></web-view>
+<web-view src="http://wx.miracle.beer/xiaochengxu/index.php"></web-view>

@@ -3,7 +3,7 @@
 <template is="tabBar" data="{{tabBar:bindData.tabBar}}"/>
 <!--直接打开一个外部连接
 会覆盖其他组件-->
-<web-view src="https://www.jsform.com/web/formview/5804ea390cf2c4c32ccbd179"></web-view>
+<web-view src="http://wx.miracle.beer/xiaochengxu/order_repair.php"></web-view>
 <!--
 自己写代码提交
 优势：对输入进行验证防止不正确的输入后台得到无用信息

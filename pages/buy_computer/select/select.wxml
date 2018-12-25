@@ -19,7 +19,8 @@
 <button  class="item" bindtap='c_price' data-price='5000'>4000-5000</button>
 <button  class="item" bindtap='c_price' data-price='6000'>5000-6000</button>
 </view>
-<button  class="item" bindtap='c_price' data-price='7000'>6000以上</button>
+<button  class="item" bindtap='c_price' data-price='7000'>6000-7000</button>
+<button  class="item" bindtap='c_price' data-price='8000'>7000-8000</button>
 <view>*尺寸:</view>
 <view class="btnGroup">
 <button  class="item"  bindtap='c_type' data-type='13.3'>13.3</button>

@@ -30,6 +30,9 @@ App({
   },
   globalData: {
     userInfo: null,
-    template: template
+    template: template,
+    price: null,
+    tpye: null,
+    use: null
   }
 })

@@ -1,0 +1,2 @@
+<!--pages/buy_computer/view/view.wxml-->
+<web-view src="http://wx.miracle.beer/xiaochengxu/select.php?use={{use}}&price={{price}}&type={{type}}"></web-view>

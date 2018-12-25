@@ -6,6 +6,7 @@
     "pages/repair_computer/index",
     "pages/buy_computer/index/index",
     "pages/buy_computer/select/select",
+    "pages/buy_computer/view/view",
     "pages/contact_us/index",
     "pages/button/button"
     
